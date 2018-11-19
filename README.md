@@ -36,9 +36,9 @@ It is also possible to provide the html directly, along with the URL, in cases w
 author = Indieweb::Authorship.identify(url, html)
 ```
 
-### Result
+## Output
 
-If an author is identified then the result will be a hash containing the fields `name` (for the name of the author), `photo` (with a url for a photo of the author), and `url` (with a url for the page of the author). Some of these may be `nil`, but all will still be provided. If no author can be identified then the result will simply be a `nil`.
+If an author is identified then the output will be a hash containing the fields `name` (for the name of the author), `photo` (with a url for a photo of the author), and `url` (with a url for the page of the author). Some of these may be `nil`, but all will still be provided. If no author can be identified then the output will simply be a `nil`.
 
 ## Contributing
 
