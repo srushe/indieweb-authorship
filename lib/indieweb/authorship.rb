@@ -35,7 +35,7 @@ module Indieweb
           return hcard_data_for(
             URI.join(url, hcard['properties']['url'][0]).to_s,
             hcard['properties']['name'][0],
-            URI.join(url, hcard['properties']['photo'][0]).to_s
+            hcard['properties'].key?('photo') ? URI.join(url, hcard['properties']['photo'][0]).to_s : nil
           )
 
         # 5.2. otherwise if author property is an http(s) URL, let the
