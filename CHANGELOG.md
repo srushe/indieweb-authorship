@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.0] - 2020-05-11
+
+### Added
+
+- Allow for h-cards without a photo, thanks to [Barry Frost](https://barryfrost.com/).
+
+### Security
+
+- Update nokogiri from 1.10.4 to 1.10.9.
+- Update json from 2.2.0 to 2.3.0.
+
 ## [0.1.0] - 2019-10-15
 
 ### Added
