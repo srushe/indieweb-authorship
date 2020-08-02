@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.2.1] - 2020-08-02
 
+### Changed
+- Update gemspec links to point to https://code.deeden.co.uk/
+
 ### Security
 
 - Update rake from 12.3 to 13.0.1.

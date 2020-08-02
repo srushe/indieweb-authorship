@@ -42,7 +42,7 @@ If an author is identified then the output will be a hash containing the fields 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/srushe/indieweb-authorship.
+Bug reports and patches are welcome at https://code.deeden.co.uk/indieweb-authorship.
 
 ## License
 
@@ -50,7 +50,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Indieweb::Authorship project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/srushe/indieweb-authorship/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Indieweb::Authorship project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Credits
 

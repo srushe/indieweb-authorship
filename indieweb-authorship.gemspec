@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Identify the author of an IndieWeb post'
   spec.description   = 'Identify the author of an IndieWeb post using the Authorship algorithm'
-  spec.homepage      = "https://github.com/srushe/indieweb-authorship"
+  spec.homepage      = "https://code.deeden.co.uk/indieweb-authorship"
   spec.license       = "MIT"
 
   spec.metadata = {
-    'bug_tracker_uri' => 'https://github.com/srushe/indieweb-authorship/issues',
-    'changelog_uri'   => 'https://github.com/srushe/indieweb-authorship/blob/master/CHANGELOG.md',
-    'homepage_uri'    => 'https://github.com/srushe/indieweb-authorship/'
+    'bug_tracker_uri' => 'https://code.deeden.co.uk/indieweb-authorship/issues',
+    'changelog_uri'   => 'https://code.deeden.co.uk/indieweb-authorship/changelog',
+    'homepage_uri'    => 'https://code.deeden.co.uk/indieweb-authorship/'
   }
 
   # Specify which files should be added to the gem when it is released.
