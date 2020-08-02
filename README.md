@@ -2,59 +2,12 @@
 
 Indieweb::Authorship is a Ruby gem for identifying the author of an IndieWeb post using the [authorship algorithm](http://indieweb.org/authorship#How_to_determine).
 
-## Installation
+## What has happened to the project?
 
-Add this line to your application's Gemfile:
+TLDR: Project (`indieweb-authorship`) is now [hosted on Sourcehut](https://code.deeden.co.uk/indieweb-authorship) due to GitHub's continued collaboration with ICE (U.S. Immigration and Customs Enforcement).
 
-```ruby
-gem 'indieweb-authorship'
-```
+Hello :wave:, nice to see you! If you're here you're presumably looking for the project (`indieweb-authorship`) that used to be here. The project still exists, it has just moved elsewhere. Let me tell you both why, and where you can find the project now.
 
-And then execute:
+Given GitHub's [ongoing policy of collaborating with ICE](https://thenextweb.com/politics/2019/10/09/github-microsoft-trump-ice-contract/) I don't feel comfortable supporting the platform ([as](https://deeden.co.uk/notes/2019/10/24/085956/) [I've](https://deeden.co.uk/notes/2019/11/15/094544/) [mentioned](https://deeden.co.uk/notes/2019/11/20/160118/) [elsewhere](https://deeden.co.uk/notes/2020/04/14/165427/)), so I've gradually moved all of my repositories (both private and public) elsewhere.
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install indieweb-authorship
-
-## Usage
-
-### From a URL
-
-You can simply provide a URL and the page will be retrieved before authorship is determined.
-
-```ruby
-author = Indieweb::Authorship.identify(url)
-```
-
-### With pre-downloaded html (from a URL)
-
-It is also possible to provide the html directly, along with the URL, in cases where you already have the page.
-
-```ruby
-author = Indieweb::Authorship.identify(url, html)
-```
-
-## Output
-
-If an author is identified then the output will be a hash containing the fields `name` (for the name of the author), `photo` (with a url for a photo of the author), and `url` (with a url for the page of the author). Some of these may be `nil`, but all will still be provided. If no author can be identified then the output will simply be a `nil`.
-
-## Contributing
-
-Bug reports and patches are welcome at https://code.deeden.co.uk/indieweb-authorship.
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the Indieweb::Authorship project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](CODE_OF_CONDUCT.md).
-
-## Credits
-
-A number of the spec example files are from...
-
-  * https://github.com/aaronpk/XRay/tree/master/tests/data/author.example.com
-
+I've hoped that GitHub would cancel their policy ([as do many of the staff](https://www.washingtonpost.com/context/letter-from-github-employees-to-ceo-about-the-company-s-ice-contract/fb280de9-2bc3-40d5-b1a5-e3b954bf0d25/), including good people I know), but nothing has happened, so I've moved. You can find the [project at Sourcehut](https://code.deeden.co.uk/indieweb-authorship), as well as [issue tracking](https://code.deeden.co.uk/indieweb-authorship/issues). [Patches](https://code.deeden.co.uk/indieweb-authorship/patches) will also still be gratefully received.
